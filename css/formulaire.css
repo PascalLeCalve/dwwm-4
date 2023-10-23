@@ -1,0 +1,85 @@
+body {
+  background-image: linear-gradient(#7777bdb7, #7777bdb7),
+    url("https://simplonline-v3-prod.s3.eu-west-3.amazonaws.com/media/image/jpeg/77eba96f-451f-41a9-a880-2ccb965e1926.jpeg");
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -10px;
+  margin-bottom: 0;
+}
+
+.p1 {
+  color: white;
+  margin-top: 0px;
+  text-align: center;
+}
+.p2 {
+  margin: 0;
+  margin-top: 16px;
+  margin-left: 5px;
+}
+.conteneur {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(43, 42, 74, 0.4);
+  color: rgb(255, 255, 255);
+  width: 500px;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.selectone {
+  margin-bottom: 15px;
+}
+.labelone {
+  margin-left: 5px;
+}
+.boxone {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.boxtwo {
+  margin-bottom: 10px;
+}
+.boxthree {
+  margin-bottom: 10px;
+}
+
+.boxseven {
+  margin-bottom: 15px;
+}
+
+p {
+  text-align: left;
+  width: 100%;
+}
+
+.boxfour p {
+  text-align: left;
+  margin: 0;
+  margin-left: 7px;
+}
+
+textarea {
+  height: 100px;
+  width: 96%;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+button {
+  background-color: #37af65;
+  width: 98%;
+  margin-left: 5px;
+  border-radius: 5px;
+  color: white;
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Briefs1/css/formulaire.css" />
+    <title>Formulaire</title>
+  </head>
+  <body>
+    <header>
+      <h1>freeCodeCamp Survey From</h1>
+      <p class="p1">
+        Thank you for taking the time to help us improve the platform
+      </p>
+    </header>
+    <form class="conteneur">
+      <div class="boxone flex">
+        <label for="name">name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Entrez votre nom"
+        />
+      </div>
+      <div class="boxtwo flex">
+        <label for="name">email</label>
+        <input
+          type="text"
+          name="mail"
+          id="mail"
+          placeholder="Entrez vôtre email"
+        />
+      </div>
+
+      <div class="boxthree flex">
+        <label for="name">age</label>
+        <input type="text" name="age" id="age" placeholder="Entrez vôtre age" />
+      </div>
+      <div class="boxfour flex">
+        <p>Recommanderiez-vous freeCodeCamp à un ami ?</p>
+        <div class="boxfive">
+          <input type="radio" id="certainement" name="radio" value="" checked />
+          <label for="certainement">certainement</label>
+        </div>
+        <div class="boxsix">
+          <input type="radio" id="peutetre" name="radio" value="" />
+          <label for="peutetre">peut-être</label>
+        </div>
+        <div class="boxseven">
+          <input type="radio" id="passur" name="radio" value="" />
+          <label for="passur">pas sur</label>
+        </div>
+      </div>
+      <div class="boxeight flex">
+        <label id="option"
+          >quelle est votre fonctionnalité préférée de freeCodeCamp?</label
+        >
+        <select class="selectone">
+          <option>sélectionner le rôle actuel</option>
+        </select>
+      </div>
+      <label class="labelone"
+        >Qu'aimeriez-vous voir amélioré (cochez toutes les réponses
+        applicables)</label
+      >
+      <div class="boxnine">
+        <input
+          type="checkbox"
+          id="front-endProjects"
+          name="front-endProjects"
+        />
+        <label for="front-endProjects">Front-end Projects</label>
+      </div>
+      <div class="boxten">
+        <input type="checkbox" id="back-endProjects" name="back-endProjects" />
+        <label for="back-endProjects">Back-end Projects</label>
+      </div>
+      <div class="boxeleven">
+        <input
+          type="checkbox"
+          id="dataVisualization"
+          name="dataVisualization"
+        />
+        <label for="dataVisualization">Data Visualization</label>
+      </div>
+      <div class="boxtwelve">
+        <input type="checkbox" id="Challenges" name="Challenges" />
+        <label for="Challenges">Challenges</label>
+      </div>
+      <div class="boxthirteen">
+        <input
+          type="checkbox"
+          id="openSourcesCommunity"
+          name="openSourcesCommunity"
+        />
+        <label for="openSourcesCommunity">Open Sources Community</label>
+      </div>
+      <div class="boxfourteen">
+        <input type="checkbox" id="gitterHelpRooms" name="gitterHelpRooms" />
+        <label for="gitterHelpRooms">Gitter help rooms</label>
+      </div>
+      <div class="boxfifteen">
+        <input type="checkbox" id="videos" name="videos" />
+        <label for="videos">videos</label>
+      </div>
+      <div class="boxsixteen">
+        <input type="checkbox" id="Wiki" name="cityMeetups" />
+        <label id="cityMeetups">City Meetups</label>
+      </div>
+      <div class="boxseventeen">
+        <input type="checkbox" id="Forum" name="Forum" />
+        <label for="Forum">Wiki</label>
+      </div>
+      <div class="boxeighteen">
+        <input
+          type="checkbox"
+          id="additionalCourses"
+          name="additionalCourses"
+        />
+        <label for="additionalCourses">Forum</label>
+      </div>
+      <div class="boxnineteen">
+        <input type="checkbox" id="scales" name="additionalCourses" />
+        <label id="Additional">Additional Courses</label>
+      </div>
+      <p class="p2">des commentaires ou des suggestions ?</p>
+      <div class="boxtwenty flex">
+        <label for="message"></label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Entrez vôtre commentaires ici"
+          cols="80"
+          rows="10"
+        ></textarea>
+      </div>
+      <div>
+        <button type="submit">Envoyer</button>
+      </div>
+    </form>
+  </body>
+</html>
