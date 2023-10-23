@@ -1,0 +1,108 @@
+body {
+  /*fond de ma page*/
+  background-color: black;
+}
+
+h1 {
+  /*Taille de mon titre*/
+  text-align: center;
+  color: white;
+}
+/*asideigation*/
+
+.asidebar ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.asidebar li {
+  display: inline-block;
+}
+.asidebar a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  padding: 25px 20px;
+  font-size: 20px;
+}
+/*Formulaire*/
+
+form {
+  /* On centre le formulaire */
+  margin: 0 auto;
+  width: 400px;
+  /* Le contour du formulaire */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Taille et alignement uniformes */
+  display: inline-block;
+  width: 80px;
+  text-align: center;
+  color: white;
+}
+
+input,
+textarea {
+  /* On s'assure que les champs texte ont la même police
+     Par défaut, les zones de texte ont une police à chasse
+     fixe. */
+  font: 1em sans-serif;
+
+  /* Taille uniforme pour des champs */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* On utilise la même bordure que pour le formulaire */
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* On rajoute une mise en avant pour les éléments avec
+     le focus. */
+  border-color: #000;
+}
+
+textarea {
+  /* On aligne les textes sur plusieurs lignes avec leur
+     libellé. */
+  vertical-align: top;
+
+  /* On fournit un peut d'espace pour saisir du texte. */
+  height: 5em;
+
+  /* On permet de redimensionner verticalement. */
+  resize: vertical;
+}
+
+.button {
+  text-align: center;
+  position: relative;
+  margin: 10px;
+  left: 25px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  color: black;
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  right: 0;
+}
